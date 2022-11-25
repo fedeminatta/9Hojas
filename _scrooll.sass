@@ -1,0 +1,36 @@
+.slider
+    width: 90% 
+    margin-left: 5%
+    margin-top: 150px
+    .slider-container 
+        border-radius: 8px
+        display: flex
+        width: auto
+        height: 100vh
+        overflow-x: scroll
+        scroll-snap-type: x mandatory
+        img 
+            flex: 0 0 100%
+            width: 100%
+            object-fit: cover
+            scroll-snap-align: center
+.slider-num
+    background: #f8f8f8
+    position: relative
+    bottom: 90px 
+    ul
+        text-align: center
+        li
+            display: inline-block
+            a
+                float: left
+                text-decoration: none
+                padding: 20px 30px
+                margin: 10px 40px
+                font-size: 25px
+                font-family: 'work sans'               
+                &:hover
+                    border-radius: 100%
+                    transition: .2s
+                    background: #D1DEDE
+                    color: #000
