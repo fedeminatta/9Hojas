@@ -10,15 +10,15 @@
     background-size: cover
     width: 50%
     height: 550px
-
-.img-1
-    background: url(./1.webp)
-.img-2
-    background: url(./2.webp)
-.img-3
-    background: url(./3.webp)
-.img-4
-    background: url(./4.webp)
+    overflow: hidden
+    img
+        transition: transform .3s
+        width: 100%
+        display: block
+        height: 100%
+        object-fit: cover
+        &:hover
+            transform: scale(1.2)
 
 .text
     display: none
