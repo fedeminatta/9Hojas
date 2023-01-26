@@ -1,15 +1,16 @@
 .slider
-    width: 90% 
+    width: 90%
     margin-left: 5%
     margin-top: 150px
-    .slider-container 
+    .slider-container
         border-radius: 8px
         display: flex
         width: auto
-        height: 100vh
+        height: auto
+        max-height: 600px
         overflow-x: scroll
         scroll-snap-type: x mandatory
-        img 
+        img
             flex: 0 0 100%
             width: 100%
             object-fit: cover
@@ -17,7 +18,7 @@
 .slider-num
     background: #f8f8f8
     position: relative
-    bottom: 90px 
+    bottom: 90px
     ul
         text-align: center
         li
@@ -26,9 +27,9 @@
                 float: left
                 text-decoration: none
                 padding: 20px 30px
-                margin: 10px 40px
+                margin: 10px 4px
                 font-size: 25px
-                font-family: 'work sans'               
+                font-family: 'work sans'
                 &:hover
                     border-radius: 100%
                     transition: .2s

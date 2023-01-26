@@ -16,6 +16,8 @@
     &:hover
         .info-1
             opacity: 1
+            p
+                left: 0
 
 .img-2
     background-image: url(./2.jpg)
@@ -43,9 +45,17 @@
         transform: scale(1.05)
 
 .info
-    padding: 50px
     width: 100%
     height: 100%
-    background-color: #00000064
+    padding: 50px
+    overflow: hidden
     opacity: 0
+    background-color: #00000064
     transition: opacity .3s
+.imagenes
+    p
+        font-size: 1.1rem
+        color: #fff
+
+div[class|='headline']
+        background: #ccc

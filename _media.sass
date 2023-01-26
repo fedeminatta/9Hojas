@@ -1,3 +1,5 @@
+:root
+    font-size: 16px
 body
     background: #f8f8f8
 
@@ -18,7 +20,8 @@ body
         width: 100vw
     .caja
         width: 45%
-    .footer-container
+    footer.footer-container
+        padding: 5px
         ul
             width: 90vw
             padding: 10px
@@ -32,6 +35,31 @@ body
             margin: 40px auto
 
 @media screen and(max-width:570px)
+    header
+        background: url(./headerSmall.webp)
+        background-size: cover
     .div-imagenes
         .cuadro
             height: 320px
+    footer.footer-container
+        padding: 5px
+        .learn-more
+            padding: 0
+        ul
+            padding: 0
+            width: 100vw
+@media screen and(max-width:530px)
+    header
+        height: 110vh
+        nav
+            margin-top: 60px
+        .design
+            margin-top: 0
+            h2
+                font-size: 2rem
+                line-height: 40px
+    :root
+        font-size: 14px
+@media screen and(max-width:420px)
+    .grid
+        padding: 60px 10px 10px
