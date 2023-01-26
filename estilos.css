@@ -104,11 +104,11 @@ header nav a:hover {
       justify-content: space-around;
 }
 .widget h3 {
-  font-size: 35px;
+  font-size: 2.2rem;
   font-family: "Open Sans";
 }
 .widget p {
-  font-size: 23px;
+  font-size: 1.6rem;
   color: #333333;
   line-height: 33px;
   font-family: "work sans";
@@ -226,7 +226,7 @@ header nav a:hover {
   min-height: 700px;
   height: auto;
   background: #f3f3f3;
-  padding: 60px 50px 10px;
+  padding: 60px 50px;
 }
 .grid .caja {
   width: 300px;
@@ -276,8 +276,9 @@ header nav a:hover {
 .img-1:hover .info-1 {
   opacity: 1;
 }
-.img-1:hover .info-1 p {
-  left: 0;
+.img-1:hover .info-1 .headline {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
 }
 
 .img-2 {
@@ -286,6 +287,10 @@ header nav a:hover {
 .img-2:hover .info-2 {
   opacity: 1;
 }
+.img-2:hover .info-2 .headline {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
 
 .img-3 {
   background-image: url(./3.jpg);
@@ -293,12 +298,20 @@ header nav a:hover {
 .img-3:hover .info-3 {
   opacity: 1;
 }
+.img-3:hover .info-3 .headline {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
 
 .img-4 {
   background-image: url(./4.jpg);
 }
 .img-4:hover .info-4 {
   opacity: 1;
+}
+.img-4:hover .info-4 .headline {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
 }
 
 .imagenes {
@@ -331,8 +344,11 @@ header nav a:hover {
   color: #fff;
 }
 
-div[class|=headline] {
-  background: #ccc;
+.headline {
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  -webkit-transform: translateX(-500px);
+          transform: translateX(-500px);
 }
 
 .footer-container {
@@ -429,12 +445,13 @@ div[class|=headline] {
 }
 
 .copy h3 {
-  margin-top: 70px;
+  margin-top: 10px;
   font-family: "work sans";
   font-size: 25px;
   font-weight: 300;
-  margin-bottom: 17px;
+  margin-bottom: 27px;
   color: #999999;
+  text-align: center;
 }
 
 .redes {
@@ -520,12 +537,19 @@ body {
     font-size: 2rem;
     line-height: 40px;
   }
+  .widget h3 {
+    font-size: 1.8rem;
+  }
+  .widget p {
+    font-size: 1.2rem;
+  }
   :root {
     font-size: 14px;
   }
 }
 @media screen and (max-width: 420px) {
   .grid {
-    padding: 60px 10px 10px;
+    padding: 60px 10px;
+    margin-bottom: 200px;
   }
 }/*# sourceMappingURL=estilos.css.map */

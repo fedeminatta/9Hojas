@@ -16,25 +16,31 @@
     &:hover
         .info-1
             opacity: 1
-            p
-                left: 0
+            .headline
+                transform: translateX(0)
 
 .img-2
     background-image: url(./2.jpg)
     &:hover
         .info-2
             opacity: 1
+            .headline
+                transform: translateX(0)
 
 .img-3
     background-image: url(./3.jpg)
     &:hover
         .info-3
             opacity: 1
+            .headline
+                transform: translateX(0)
 .img-4
     background-image: url(./4.jpg)
     &:hover
         .info-4
             opacity: 1
+            .headline
+                transform: translateX(0)
 
 .imagenes
     transition: transform .3s
@@ -57,5 +63,6 @@
         font-size: 1.1rem
         color: #fff
 
-div[class|='headline']
-        background: #ccc
+.headline
+    transition: all .4s
+    transform: translateX(-500px)
