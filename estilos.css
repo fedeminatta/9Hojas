@@ -8,31 +8,18 @@ header {
   background-position: center 0;
   height: 100vh;
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 header nav {
   margin-top: 40px;
   width: 100%;
   font-family: "Open Sans", sans-serif;
   font-weight: 500;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column wrap;
-          flex-flow: column wrap;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  flex-flow: column wrap;
+  justify-content: flex-start;
   font-size: 1.1rem;
 }
 header nav p {
@@ -51,16 +38,9 @@ header nav a:hover {
 }
 
 .nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  flex-flow: row wrap;
+  justify-content: flex-start;
 }
 
 .design {
@@ -87,21 +67,14 @@ header nav a:hover {
   width: 90%;
   height: auto;
   margin: 100px auto;
-  -webkit-box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
   background: #fff;
   padding: 50px;
   position: static;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  flex-flow: row wrap;
+  justify-content: space-around;
 }
 .widget h3 {
   font-size: 2.2rem;
@@ -122,16 +95,10 @@ header nav a:hover {
   margin: auto;
   margin-top: 100px;
   font-family: "Open Sans";
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 90%;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
+  justify-content: space-around;
+  flex-flow: row wrap;
 }
 .main-2 p {
   color: #727272;
@@ -164,20 +131,15 @@ header nav a:hover {
 }
 .slider .slider-container {
   border-radius: 8px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: auto;
   height: auto;
   max-height: 600px;
   overflow-x: scroll;
-  -ms-scroll-snap-type: x mandatory;
-      scroll-snap-type: x mandatory;
+  scroll-snap-type: x mandatory;
 }
 .slider .slider-container img {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 100%;
-          flex: 0 0 100%;
+  flex: 0 0 100%;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -205,22 +167,15 @@ header nav a:hover {
 }
 .slider-num ul li a:hover {
   border-radius: 100%;
-  -webkit-transition: 0.2s;
   transition: 0.2s;
   background: #D1DEDE;
   color: #000;
 }
 
 .grid {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  flex-flow: row wrap;
+  justify-content: space-around;
   width: 80vw;
   margin: 0 auto 400px;
   min-height: 700px;
@@ -248,16 +203,9 @@ header nav a:hover {
 }
 
 .div-imagenes {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  flex-flow: row wrap;
+  justify-content: flex-start;
   width: 100%;
   height: auto;
   background: none;
@@ -277,8 +225,7 @@ header nav a:hover {
   opacity: 1;
 }
 .img-1:hover .info-1 .headline {
-  -webkit-transform: translateX(0);
-          transform: translateX(0);
+  transform: translateX(0);
 }
 
 .img-2 {
@@ -288,8 +235,7 @@ header nav a:hover {
   opacity: 1;
 }
 .img-2:hover .info-2 .headline {
-  -webkit-transform: translateX(0);
-          transform: translateX(0);
+  transform: translateX(0);
 }
 
 .img-3 {
@@ -299,8 +245,7 @@ header nav a:hover {
   opacity: 1;
 }
 .img-3:hover .info-3 .headline {
-  -webkit-transform: translateX(0);
-          transform: translateX(0);
+  transform: translateX(0);
 }
 
 .img-4 {
@@ -310,22 +255,17 @@ header nav a:hover {
   opacity: 1;
 }
 .img-4:hover .info-4 .headline {
-  -webkit-transform: translateX(0);
-          transform: translateX(0);
+  transform: translateX(0);
 }
 
 .imagenes {
-  -webkit-transition: -webkit-transform 0.3s;
-  transition: -webkit-transform 0.3s;
   transition: transform 0.3s;
-  transition: transform 0.3s, -webkit-transform 0.3s;
   height: 100%;
   background-size: cover;
   overflow: hidden;
 }
 .imagenes:hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .info {
@@ -335,7 +275,6 @@ header nav a:hover {
   overflow: hidden;
   opacity: 0;
   background-color: rgba(0, 0, 0, 0.3921568627);
-  -webkit-transition: opacity 0.3s;
   transition: opacity 0.3s;
 }
 
@@ -345,27 +284,16 @@ header nav a:hover {
 }
 
 .headline {
-  -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  -webkit-transform: translateX(-500px);
-          transform: translateX(-500px);
+  transform: translateX(-500px);
 }
 
 .footer-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -ms-flex-line-pack: distribute;
-      align-content: space-around;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  align-content: space-around;
   width: 100%;
   height: auto;
   padding: 100px;
@@ -407,15 +335,9 @@ header nav a:hover {
 }
 
 .download {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  flex-flow: row wrap;
+  justify-content: space-around;
 }
 .download button {
   border: none;
